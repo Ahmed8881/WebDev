@@ -1,13 +1,10 @@
-HTML BASIC TAGS WILL BE COVERED HERE
 <!DOCTYPE html>
 <html>
 <head>
-<title></title>
+<title>Introduction to Web Development</title>
 </head>
 <body>
-
+<h1>Welcome to Web Development!</h1>
+<p>In this course, we will cover the basic tags and concepts of HTML.</p>
 </body>
 </html>
-
-
-
