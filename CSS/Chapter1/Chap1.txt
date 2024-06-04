@@ -1,0 +1,10 @@
+DOM:
+Document Object Model Whenever a page is loaded the brower creates 
+a DOM
+Its Like a tree structure ie head contain body which further contains div etc
+
+----------------------------------------------------
+There are 3 ways to add css in html
+Style tag
+Internal Css
+External Css
