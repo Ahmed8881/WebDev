@@ -8,3 +8,9 @@ There are 3 ways to add css in html
 Style tag
 Internal Css
 External Css
+In style tag 
+# calls id
+.dot calls class
+--------------------------------------------------------
+CSS SELECTORS
+A css selector is used to select Html element for styling
