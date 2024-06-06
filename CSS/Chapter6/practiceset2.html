@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>By flex</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        li {
+            list-style: none;
+            display: inline;
+            color: aliceblue;
+            font-size: 3vh;
+            padding: 50px;
+            margin: 32px;
+
+        }
+
+        header {
+            height: 9vh;
+            background-color: black;
+
+        }
+
+        .left {
+            background-color: salmon;
+            height: 34vh;
+            width: 30vw;
+
+        }
+
+        .right {
+            background-color: royalblue;
+            height: 34vh;
+            width: 40vw;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact us</li>
+
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, repellat nulla tempora ea iusto
+            ipsam, ullam ab, dolorum iure consequatur cumque excepturi. Alias, incidunt inventore! Dignissimos quos
+            aliquid necessitatibus ipsam voluptate porro corrupti minima.</div>
+        <div class="right">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum quas a eveniet laborum
+            exercitationem ea ipsa ab ullam ut eos! Iusto fuga distinctio assumenda aliquid at rem. Ipsum, nihil nisi ad
+            accusantium sint non?</div>
+    </div>
+</body>
+
+</html>
