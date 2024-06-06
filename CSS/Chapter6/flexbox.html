@@ -3,9 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Flex Box</title>
+    <style>
+        .container{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        
+            background-color: cornsilk;
+            align-items: center;
+            align-content: center;
+
+        }
+        .box1{
+            height: 233px;
+            width: 233px;
+            background-color: royalblue;
+            order: 3;
+           
+        
+        }
+        .box2{
+            height: 233px;
+            width: 233px;
+            background-color: red;
+            flex-grow: 2;
+         
+           
+        }
+        .box3{
+            height: 233px;
+            width: 233px;
+            background-color: green;
+         
+           
+        }
+        .box4{
+            height: 233px;
+            width: 233px;
+            background-color: yellow;
+         
+           
+        }
+    </style>
 </head>
 <body>
-    
+    <div class="container">
+        <div class="box1">Box 1</div> 
+        <div class="box2">Box 2</div>
+        <div class="box3">Box 3</div>
+        <div class="box4">Box 4</div>
+    </div>
 </body>
 </html>
