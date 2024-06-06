@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box sizing</title>
+    <style>
+        *{
+            margin: 0;padding: 0;
+        }
+
+.b1{
+    /* grater marzin is considered */
+    margin: 34px;
+    height: 2320px;
+    background-color: crimson;
+    width: 233px;
+    border: 2px solid black;
+}
+.b2{
+    background-color: aqua;
+  
+    height: 20px;
+    width: 100%;
+    padding: 2px;
+    border: 5px solid black;
+    box-sizing: border-box;
+}
+    </style>
+</head>
+<body>
+    <div class="b1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus incidunt eligendi quod a obcaecati adipisci amet, nobis laboriosam repudi. 
+        <div class="b2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus perferendis natus aliquid?</div></div>
+   
+</body>
+</html>

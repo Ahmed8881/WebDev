@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Margin collapse</title>
+    <style>
+        *{
+            margin: 0;padding: 0;
+        }
+
+.b1{
+    /* grater marzin is considered */
+    margin: 34px;
+    height: 24px;
+    background-color: crimson;
+}
+.b2{
+    background-color: aqua;
+    margin: 20px;
+    height: 24px;
+}
+    </style>
+</head>
+<body>
+    <div class="b1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus incidunt eligendi quod a obcaecati adipisci amet, nobis laboriosam repudiandae, aspernatur, excepturi soluta. Incidunt atque deserunt vero quia maxime? Animi sapiente minima mollitia.</div>
+    <div class="b2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus perferendis natus aliquid?</div>
+</body>
+</html>
