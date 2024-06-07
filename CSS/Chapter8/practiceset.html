@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>p ch 8</title>
+    <style>
+        *{
+            margin: 0;padding: 0;
+        }
+        header{
+            height: 122px;
+            background-color: black;
+        }
+        main{
+            height: 900px;
+            background-color: blueviolet;
+        }
+        .bar{
+            background-color: red;
+            height: 3px;
+           
+            animation: loading 1s ease-in-out 1;
+            visibility: none;
+           
+
+        }
+        img{
+            height: 100px;
+            width: 100px;
+            border-radius: 200px;
+            animation: rotate 1s ease-in infinite;
+        }
+        @keyframes rotate {
+            0%{
+                transform: rotate(0deg);
+            }
+            100%{
+                transform: rotate(360deg);
+            }
+            
+        }
+        @keyframes loading {
+            0%{
+                width: 0;
+            }
+            50%{
+                width: 60vw;
+            }
+            100%{
+                width: 100vw;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="bar"></div>
+   <header></header>
+   <main>
+<img src="bgg.png" alt="">
+   </main>
+   
+</body>
+</html>
