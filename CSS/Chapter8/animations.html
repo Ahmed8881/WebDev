@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animations</title>
+    <style>
+        @keyframes ahmed {
+            from{width: 300px;
+            height: 300px;}
+            to{width: 500px;
+            height: 500px;}
+            
+        }
+        .container{
+            width:100vw;
+            height: 100vh;
+            background-color: blueviolet;
+        }
+        .box{
+            width: 300px;
+            height: 300px;
+            background-color: beige;
+            color: black;
+            display: flex;
+            justify-content: center;
+                align-items: center;
+                animation-name: ahmed;
+                animation-duration: 1s;
+                animation-timing-function: ease-in-out;
+                animation-delay:1s ;
+                animation-iteration-count: 5;
+                animation-direction:alternate-reverse
+        
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">This is a box</div>
+
+    </div>
+</body>
+</html>

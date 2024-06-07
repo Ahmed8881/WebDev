@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Animations and transformations</title>
+    <style>
+        .container{
+            background-color: aqua;
+            height: 344px;
+        }
+        .box{
+            border: 2px solid blue;
+         /*transform:translate(34px) rotate(45deg) ;
+            
+            transform: skew(4deg,6deg);
+            transform: scale();
+            transform-origin: 0;*/
+            
+
+        }
+       
+        img{
+          width: 146px;
+            transition-property: width ;
+            transition-duration: 1s;
+            transition-timing-function: ease-in;
+            
+
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <div class="box"><img id="MyImage" src="bgg.png" alt="">  <button id="btn">Toggle</button></div>
+      
+        
+    </div>
+</body>
+<script>
+    MyImage.style.width="146px";
+
+    btn.addEventListener("click",()=>{
+        if( MyImage.style.width<="146px"){
+            MyImage.style.width="346px";
+        }
+        else if( MyImage.style.width=="346px"){
+
+            MyImage.style.width="46px";
+        }
+    })
+        </script>
+</html>
