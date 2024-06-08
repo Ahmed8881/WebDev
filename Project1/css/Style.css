@@ -4,16 +4,17 @@
   margin: 0;
   padding: 0;
 }
-body{
-    background-color:#F6F6F6 ;
+
+body {
+  background-color: #f6f6f6;
 }
 
 footer {
   background-color: #f85606;
   color: white;
-  height: 14vh;
+  height: calc(100vh - 92vh);
+  padding-bottom:0 ;
   font-family: "Fira Sans", sans-serif;
-  
 }
 
 header {
@@ -24,20 +25,24 @@ nav ul li a {
   text-decoration: none;
   color: white;
 }
+
 nav ul li a:hover {
   text-decoration: none;
 
   font-weight: bold;
 }
+
 .logo img {
   width: 100px;
   padding: 0 23px;
 }
+
 .logo {
   display: flex;
 
   height: 8vh;
 }
+
 nav {
   display: flex;
   justify-content: start;
@@ -55,29 +60,34 @@ nav ul li {
   list-style: none;
   padding: 0px 23px;
 }
+
 .container {
   min-height: calc(100vh - 24vh);
 }
+
 #search {
   width: 40vw;
   border-radius: 10px;
   border-color: white;
 }
+
 .searchbar {
   height: 20px;
   padding: 0px 30px;
   display: flex;
 }
+
 .searchbar img {
   width: 30px;
 
   height: 20px;
   padding: 0px 10px;
 }
-.searchbar input{
-    padding: 0px 10px;
-   font-style: italic;
-   font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+.searchbar input {
+  padding: 0px 10px;
+  font-style: italic;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .icon {
@@ -85,40 +95,60 @@ nav ul li {
   border: none;
   display: block;
 }
+
 .icon:hover {
   background-color: #f85606;
   border: 2px solid white;
   border-radius: 30px;
   display: block;
 }
-.login{
-    color: white;
-    font-weight: bold;
-    font-family: 'Times New Roman', Times, serif;
-}
-.item-holder{
-    background-color:white;
-    padding: 20px;
-    list-style: none;
-    display: inline-block;
-    width: 110px;
-    height: 210px;
-    border-radius: 10px;
-    margin: auto;
-}
-.text-holder{
-    color: black;
-    text-decoration: none;
-   
-}
-.daraz{
 
-    width: 920px;
-    height: 380px;
-}
-.list-holder{
-   display: flex;
-   padding: 12px;
-    
+.login {
+  color: white;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
 }
 
+.container {
+  padding-top: 50px;
+  padding-left: 50px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.item-holder {
+  background-color: white;
+
+  list-style: none;
+  display: inline-block;
+  width: 210px;
+  height: 210px;
+  border-radius: 10px;
+  margin: auto;
+}
+
+.text-holder {
+  color: black;
+  text-decoration: none;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 13px 40px;
+  text-align: center;
+}
+
+.item1 {
+  margin-top: 10px;
+}
+
+.daraz {
+  margin-left: 110px;
+  width: 1100px;
+  height: 210px;
+  border-radius: 20px;
+}
+
+.list-holder {
+  display: flex;
+}
