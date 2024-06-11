@@ -3,26 +3,112 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>clone</title>
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+          }
+        
+          nav {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px;
+          }
+        
+          .name {
+            color: #5b21b6;
+            font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+            font-size: 25px;
+            padding-top: 8px;
+            padding-left: 10px;
+          }
+        
+          nav ul li {
+            display: inline-block;
+            margin: 0 10px;
+            font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+            font-size: 20px;
+            color: gray;
+          }
+        
+          .Home {
+            color: #5b21b6;
+          }
+        .XD{
+          color: #5b21b6;
+        }
+        .main-container{
+          margin: 100px;
+          display: inline-block;
+        }
+        .Heading{
+         
+          font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+          text-align: center;
+
+          
+        }
+        .para{
+          padding-top: 20px;
+          font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+          color: gray;
+          text-align: center;
+        }
+        .main-body{
+          width: 50%;
+          display: flex;
+          justify-content: space-between;
+        }
+        .gaming-img{
+          padding-top: 10px;
+          height: 60%;
+          width: 760%;
+    clip-path: polygon(10% 0px, 100% 0%, 100% 100%, 0px 100%);
+        }
+        .foot-container{
+          display: flex;
+          padding-left: 20px;
+          align-items: center;
+
+        }
+      
+    </style>
 </head>
-<style>
-    .ul-container{
-        display: inline-flex;
-        list-style: none;
-        justify-content: flex-end;
-    }
-</style>
 <body>
-    <header>
+    <header >
         <nav>
-           
-            <ul class="ul-container">
-                <li>Home</li>
-                <li>About</li>
-                <li>Blog</li>
-                <li>Contact</li>
-            </ul>
+          <div class="name">XDGaming</div>
+          <ul>
+            <a href="">
+              <li class="Home">Home</li></a>
+            <a href=""><li class="Navitems">About</li></a>
+            <a href=""><li class="Navitems">Blog</li></a>
+            <a href=""><li class="Navitems">Contact</li></a>
+          </ul>
         </nav>
-    </header>
+        <hr />
+
+      </header>
+      <main >
+        <section class="main-body" >
+          <div class="main-container">
+            <h1 class="Heading">Wecome to <i class="XD">XDGaming</i></h1>
+            <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto unde saepe pariatur dolores, beatae iure repellendus eum sequi magnam tempore, dolor possimus facilis commodi eligendi culpa? Dolor exercitationem temporibus, sed dolorem asperiores illum error alias molestias eos totam, molestiae officia id itaque corporis accusamus suscipit ea. Quibusdam illum aperiam beatae quis in aliquid reiciendis nulla necessitatibus quam. Alias, harum deserunt.</p>
+          </div>
+          <div>
+            <img class="gaming-img" src="img/gaming.png" alt="">
+
+          </div>
+        </section>
+      </main>
+      <footer>
+        <div class="foot-container">
+          <h1>XDGaming</h1>
+          <p>    | Copyright &copy; 2022 M-N Website Makers</p>
+        
+        </div>
+      </footer>
 </body>
 </html>
