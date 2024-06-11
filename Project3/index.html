@@ -38,15 +38,18 @@
           }
         .XD{
           color: #5b21b6;
+          font-size: 30px
         }
         .main-container{
           margin: 100px;
           display: inline-block;
         }
         .Heading{
+          font-size: 30px;
          
           font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
           text-align: center;
+          padding-top: 30px;
 
           
         }
@@ -54,6 +57,7 @@
           padding-top: 20px;
           font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
           color: gray;
+          text-align:justify;
           text-align: center;
         }
         .main-body{
@@ -62,16 +66,63 @@
           justify-content: space-between;
         }
         .gaming-img{
+          padding-right: 50px;
           padding-top: 10px;
-          height: 60%;
+          height: 70%;
           width: 760%;
     clip-path: polygon(10% 0px, 100% 0%, 100% 100%, 0px 100%);
+        }
+        .btn{
+         
+          display: flex;
+          justify-content: center;
+        }
+        .btn-child-1{
+          padding: 7px;
+          margin: 10px;
+          background-color: #5b21b6;
+          color: white;
+          border: none;
+          border-radius: 7px;
+          font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        }
+        .btn-child-2{
+          padding: 7px;
+          margin: 10px;
+          background-color: #5b21b6;
+          color: white;
+          border: none;
+          border-radius: 7px;
+          font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        }
+        .btn-child-1:hover{
+          padding: 10px;
+          margin: 10px;
+          background-color:gray;
+          color: white;
+          border: none;
+          border-radius: 7px;
+          font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        }
+        .btn-child-2:hover{
+        
+          padding: 10px;
+          margin: 10px;
+          background-color:gray;
+          color: white;
+          border: none;
+          border-radius: 7px;
+          font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
         }
         .foot-container{
           display: flex;
           padding-left: 20px;
           align-items: center;
 
+        }
+        .footer-title{
+          color: #5b21b6;
+          font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
         }
       
     </style>
@@ -94,19 +145,23 @@
       <main >
         <section class="main-body" >
           <div class="main-container">
-            <h1 class="Heading">Wecome to <i class="XD">XDGaming</i></h1>
+            <h1 class="Heading">Welcome to <i class="XD">XDGaming</i></h1>
             <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto unde saepe pariatur dolores, beatae iure repellendus eum sequi magnam tempore, dolor possimus facilis commodi eligendi culpa? Dolor exercitationem temporibus, sed dolorem asperiores illum error alias molestias eos totam, molestiae officia id itaque corporis accusamus suscipit ea. Quibusdam illum aperiam beatae quis in aliquid reiciendis nulla necessitatibus quam. Alias, harum deserunt.</p>
+          <div class="btn">
+            <button class="btn-child-1">Explore Blog</button>
+          <button class="btn-child-2">About Me</button>
+        </div>
           </div>
           <div>
             <img class="gaming-img" src="img/gaming.png" alt="">
-
-          </div>
-        </section>
+            
+            </div>
+            </section>
       </main>
       <footer>
         <div class="foot-container">
-          <h1>XDGaming</h1>
-          <p>    | Copyright &copy; 2022 M-N Website Makers</p>
+          <h1 class="footer-title">XDGaming </h1>
+          <p> | Copyright &copy; 2022 M-N Website Makers</p>
         
         </div>
       </footer>
