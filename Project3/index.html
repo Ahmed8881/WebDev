@@ -10,11 +10,169 @@
             padding: 0;
             box-sizing: border-box;
           }
+        @media screen and (max-width: 1200px) {
+         
+         .Heading{
         
+          margin-left: -4vh;
+          margin-top: -10vh;
+        
+         }
+        .para{
+          width: 150%;
+          padding-right: 5vh;
+          margin-bottom: 2vh;
+          margin-left: -6vh;
+        }
+        body{
+          height: 50vh;
+        }
+        
+        .btn{
+          margin-left: -4vh;
+        }
+        .btn-child-1,
+    .btn-child-2 {
+        padding: 10px;
+        font-size: 10px;
+       
+    }
+       .foot-container{
+       margin-top: 20vh;
+       }
+
+       .gaming-img{
+        margin-left: 10px;
+        margin-top: 10px;
+      margin-left: 20px ;
+    
+       }
+        
+        
+      }
+         @media screen and (max-width: 900px) {
+         
+          .para{
+            width: 210%;
+            padding-right: 5vh;
+            margin-bottom: 2vh;
+            margin-left: -8vh;
+          }
+          .Heading{
+        
+            margin-left: 1.5vh;
+            margin-top: -10vh;
+          
+           }
+           .btn{
+            margin-left: -1vh;
+          
+            
+          }
+          .btn-child-1,
+      .btn-child-2 {
+          
+          font-size: 9px;
+         
+      }
+        }
+        @media screen and (max-width: 850px) {
+        
+          .gaming-img{
+            display: none;
+          }
+          
+          .Heading{
+          
+              width: 300%;
+         
+          }
+          .para{
+            width: 380%;
+            padding-right: 5vh;
+            margin-bottom: 2vh;
+            margin-left: -8vh;
+          }
+          .btn{
+           width: 300%;
+          
+            
+          }
+          .foot-container{
+            margin-top: 30vh;
+            }
+            .icons{
+              display: flex;
+              margin-left: 10px;
+            }
+            .social-icons{
+              display: flex;
+              justify-content: space-between;
+              
+              padding-right: 10px;
+              margin-top:10vh;
+              margin-left: 30px;
+              position: relative;
+              bottom: 10px;
+              right: 15pc;
+              
+             
+              
+            }
+
+           
+            .ft{
+              margin-left: 170px;
+              position: relative;
+              bottom: 10px;
+              right: 170px;
+            }
+     .btn{
+          margin-left: -4vh;
+        }
+        .btn-child-1,
+    .btn-child-2 {
+        padding: 10px;
+        font-size: 13px;
+       
+    }
+  
+
+       
+        }
+        @media screen and (max-width: 650px) {
+        
+        .para{
+          width: 350%;
+        }
+        .Heading{
+          width: 250%;
+        }
+      } 
+      @media screen and (max-width: 570px) {
+       
+        .para{
+          width: 300%;
+        }
+        .Heading{
+          width: 200%;
+        }
+        .btn{
+          margin-left: -10vh;
+        }
+        .btn-child-1,
+    .btn-child-2 {
+        padding: 10px;
+        font-size: 13px;
+       
+    }
+      }
+         
+                
           nav {
             display: flex;
             justify-content: space-between;
-            margin: 20px;
+            margin: 30px;
           }
         
           .name {
@@ -68,8 +226,8 @@
         .gaming-img{
           padding-right: 50px;
           padding-top: 10px;
-          height: 70%;
-          width: 760%;
+          height: 75%;
+          width:690%;
     clip-path: polygon(10% 0px, 100% 0%, 100% 100%, 0px 100%);
         }
         .btn{
@@ -114,6 +272,10 @@
           border-radius: 7px;
           font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
         }
+        footer{
+          position: relative;
+          bottom: 0;
+        }
         .foot-container{
           display: flex;
           padding-left: 20px;
@@ -123,14 +285,32 @@
         .footer-title{
           color: #5b21b6;
           font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+          font-size: 25px;
+
         }
+        .copy-right{
+          color: gray;
+          font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+          font-size: 15px;
+        }
+       .icons{
+        display: flex;
+        position: absolute;
+        right: 0;
+        padding-right: 30px;
+       }
+       .social-icons{
+        width:40px;
+        height: 20px;
+       }
+        
       
     </style>
 </head>
 <body>
     <header >
         <nav>
-          <div class="name">XDGaming</div>
+          <div class="name"><i>XDGaming</i></div>
           <ul>
             <a href="">
               <li class="Home">Home</li></a>
@@ -151,19 +331,25 @@
             <button class="btn-child-1">Explore Blog</button>
           <button class="btn-child-2">About Me</button>
         </div>
-          </div>
+          </div class="img">
           <div>
-            <img class="gaming-img" src="img/gaming.png" alt="">
+           <img class="gaming-img" src="img/gaming.png" alt="">
             
             </div>
             </section>
       </main>
       <footer>
         <div class="foot-container">
-          <h1 class="footer-title">XDGaming </h1>
-          <p> | Copyright &copy; 2022 M-N Website Makers</p>
-        
-        </div>
-      </footer>
+          <p class="footer-title">XDGaming  </p>
+          <pre class="copy-right"> | Copyright &copy; 2022 M-N Website Makers</pre>
+          <div class="ft"> </div>
+          <div class="icons">
+
+            <a href="https://www.youtube.com/"><img class="social-icons" src="img/yt.png" alt=""></a>
+          <a href="https://www.facebook.com/"><img class="social-icons" src="img/fb.png" alt=""></a>
+       <a href="https://www.insta.com/"> <img class="social-icons" src="img/insta.png" alt=""></a>
+      </div>
+    </div>
+    </footer>
 </body>
 </html>
