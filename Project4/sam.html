@@ -9,7 +9,7 @@
             padding: 0;margin: 0;
         }
         nav{
-            background-color: blueviolet;
+           
             width: 190vh;
             position: relative;
             left: 20vh;
@@ -25,7 +25,7 @@
         
         }
         .sidepanel{
-            background-color: yellow;
+          
             width: 20vh
         }
         .cold{
@@ -48,7 +48,75 @@
         }
         .main-body{
 
+            
+            width: 190vh;
+            position: relative;
+            left: 20vh;
         }
+        .container{
+            display: flex;
+        }
+        .c1{
+            width: 50%;
+        }
+        .c2{
+            width: 50%;
+        }
+        .city-img{
+            padding: 10px;
+            padding-top:20px;
+            border-radius: 30px;
+        }
+        .vl {
+            border-left: 2px solid  rgba(0, 0, 0, 0.133);
+            height: 600px;
+            position: relative;
+            left: 2px;
+            top: -34px;
+          }
+         .vertical-line{
+            border-left: 2px solid rgba(0, 0, 0, 0.133);
+            height: 700px;
+            position: absolute;
+            left: 9%;
+            margin-left: -3px;
+            top: 0;
+         }
+         .h2{
+             padding-left: 20px;
+             margin-top: 50px;
+         }
+         .new-imgs{
+              
+                padding-top: 50px;
+                width: 85px;
+         }
+         .weather-imgs{
+             display: inline-block;
+             padding-left: 50px;
+             margin: 10px;
+         }
+         .img-w
+         {
+            width: 90px;
+             margin: 10px;
+
+         }
+         .img-l
+         {
+            width: 285px;
+             margin: 10px;
+
+         }
+         .temp{
+             padding-left: 40px;
+             margin-top: 100px;
+             display: inline-block;
+            
+         }
+         .h3{
+             padding-top: 120px;
+         }
     </style>
 </head>
 <body>
@@ -62,21 +130,48 @@
         <img class="side-icons" src="img/icons8-calculate-32.png" alt="">
         <img class="side-icons" src="img/icons8-setting-50.png" alt="">
         <img class="exit" src="img/icons8-setting-50.png" alt="">
-       
-
-
     </section>
-    <nav>
+       
+<div class="vertical-line"></div>
+    <nav>   
+       
 <img class="nav-icons" src="img/icons8-home-32.png" alt="">
 <img class="nav-icons" src="img/icons8-home-32.png" alt="">
 <img class="nav-icons" src="img/icons8-home-32.png" alt="">
 
 <hr>
-    </nav>
+</nav>
     <main class="main-body">
         <section class="container">
-            <div></div>
-            <div></div>
+            <div class="c1">
+                <h1 style="padding-left: 50px;">Weather Report</h1>
+                <div class="images">
+                    <div class="image-container">
+                        
+                    </div>
+                    <img  class="city-img" src="img/1.jpg" alt="">
+                    <img  class="city-img" src="img/3.jpg" alt="">
+                    <img  class="city-img" src="img/1.jpg" alt="">
+                </div>
+                <div>
+                    <h1 class="h2">Interesting Weather Reports</h1>
+                    <div class="weather-imgs">
+                        <img class="img-l"  src="img/play.png" alt="">
+                        <img class="img-w" src="img/ice.png" alt="">
+                        <img class="img-w" src="img/strome.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="vl"></div>
+            <div class="c2">
+                <h1 style="padding-left: 50px;">Statistics</h1>
+                <div class="temp">
+                    <h2>Polutioon Index</h2>
+                    <h2 class="h3">Average Monthly Temperature</h2>
+                    <h2 class="h3">Average Monthly Rainfall</h2>
+                </div>
+            </div>
+          
         </section>
     </main>
 </body>
