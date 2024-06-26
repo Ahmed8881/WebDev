@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,10 +11,11 @@
         }
         nav{
            
-            width: 190vh;
+            width: 200vh;
             position: relative;
             left: 20vh;
-            margin-top: -708px;
+            margin-top: -670px;
+            
             height: 90px;
         }
         .nav-icons{
@@ -40,6 +42,11 @@
             display: flex;
             margin-left: 10px;
             padding-left: 20px;
+            
+        }
+        .side-icons:hover{
+            color: orange;
+           
         }
         .exit{
             width: 30px;
@@ -69,16 +76,16 @@
         }
         .vl {
             border-left: 2px solid  rgba(0, 0, 0, 0.133);
-            height: 600px;
+            height: 630px;
             position: relative;
             left: 2px;
             top: -34px;
           }
          .vertical-line{
             border-left: 2px solid rgba(0, 0, 0, 0.133);
-            height: 700px;
+            height: 709px;
             position: absolute;
-            left: 9%;
+            left: 146px;
             margin-left: -3px;
             top: 0;
          }
@@ -116,13 +123,38 @@
          }
          .h3{
              padding-top: 120px;
+             color: darkblue;
+             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        
          }
+         .h-p{
+            color: darkblue;
+             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+         }
+         @media screen and (max-width: 1460px){
+            body{
+                background-color: red
+            };
+          
+                    nav{
+                        width: 50vh;
+                        position: relative;
+                        left: 10vh;
+                        margin-top: -670px;
+                        height: 90px;
+                    
+                }
+            }
+            
+         
     </style>
 </head>
 <body>
     <section class="sidepanel"> 
-        <img class="cold" src="img/coldicon.png" alt="">
-        <img  class="side-icons" src="img/icons8-home-32.png" alt="">
+
+      <img class="cold" src="img/coldicon.png" alt="">
+      <a  class="link" href="">     <img  class="side-icons" src="img/icons8-home-32.png" alt=""></a>
         <img  class="side-icons" src="img/icons8-timer-50.png" alt="">
         <img class="side-icons" src="img/icons8-bug-24.png" alt="">
         <img class="side-icons" src="img/icons8-menu-24.png" alt="">
@@ -166,9 +198,9 @@
             <div class="c2">
                 <h1 style="padding-left: 50px;">Statistics</h1>
                 <div class="temp">
-                    <h2>Polutioon Index</h2>
-                    <h2 class="h3">Average Monthly Temperature</h2>
-                    <h2 class="h3">Average Monthly Rainfall</h2>
+                    <h3 class="h-p">Pollution Index</h3>
+                    <h3 class="h3">Average Monthly Temperature</h3>
+                    <h3 class="h3">Average Monthly Rainfall</h3>
                 </div>
             </div>
           
